@@ -15,9 +15,10 @@ Both VMs sit on an isolated VMware network (VMnet2). The router VM has two netwo
 ![Ubuntu VM network settings](screenshots/01b-network-setup.png)
 ![Ubuntu IP and route](screenshots/02-ubuntu-ip.png)
 
-Tools used
-Software: VMware Workstation, Ubuntu Server 24.04, OpenSSH, ufw (Uncomplicated Firewall), fail2ban
-Commands: grep, last, ufw, ssh-keygen, ssh-copy-id, sshd -t, fail2ban-client, apt
+### Tools used
+
+- **Software:** VMware Workstation, Ubuntu Server 24.04, OpenSSH, ufw (Uncomplicated Firewall), fail2ban
+- **Commands:** `grep`, `last`, `ufw`, `ssh-keygen`, `ssh-copy-id`, `sshd -t`, `fail2ban-client`, `apt`
 
 ## Part A: Attack and investigation
 
